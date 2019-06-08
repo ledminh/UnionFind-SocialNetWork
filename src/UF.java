@@ -51,7 +51,7 @@ public class UF {
 	}
 	
 	
-	private int root(int i) {
+	public int root(int i) {
 		
 		while(parents[i] != i) {
 			i = parents[i];
